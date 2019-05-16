@@ -1,12 +1,10 @@
-$(document).ready(function () {
-  console.log("hej");
-})
+
 
 $("#Hem").click(function(){
 
 
   $('html, body').animate({
-        scrollTop: $("#banner").offset().top
+        scrollTop: $("#box1").offset().top-800
     }, 2000);
 
 
